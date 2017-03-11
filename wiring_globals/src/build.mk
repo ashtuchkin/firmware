@@ -15,5 +15,5 @@ CPPSRC += $(call target_files,src/,*.cpp)
 # ASM source files included in this build.
 ASRC +=
 
-CPPFLAGS += -std=gnu++11
+CPPFLAGS += -std=gnu++14
 

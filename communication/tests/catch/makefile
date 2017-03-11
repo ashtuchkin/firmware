@@ -69,7 +69,7 @@ CFLAGS += -DSPARK=1
 CFLAGS += -DDEBUG_BUILD
 CFLGAS += fprofile-arcs -ftest-coverage
 
-CPPFLAGS += -std=gnu++11
+CPPFLAGS += -std=gnu++14
 CPPFLAGS += -DCATCH_CONFIG_SFINAE
 
 # Collect all object and dep files
