@@ -1,6 +1,6 @@
 # this is included in the top-level-module makefile to provide
 # HAL-specific defines
 
-DEPENDENCIES += communication newlib_nano
+DEPENDENCIES += communication
 
-CPPFLAGS += -std=gnu++11
+CPPFLAGS += -std=gnu++14

@@ -40,4 +40,4 @@ CSRC += $(call target_files,$(SYSTEM_PART1_MODULE_SRC_PATH),*.c)
 BUILTINS_EXCLUDE = malloc free realloc
 CFLAGS += $(addprefix -fno-builtin-,$(BUILTINS_EXCLUDE))
 
-CPPFLAGS += -std=gnu++11
+CPPFLAGS += -std=gnu++14

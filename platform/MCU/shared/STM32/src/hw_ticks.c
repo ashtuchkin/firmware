@@ -26,13 +26,13 @@
 /**
  * The current millisecond counter value.
  */
-static volatile system_tick_t system_millis = 0;
+volatile system_tick_t system_millis = 0;
 
 /**
  * The system clock value at last time system_millis was updated. This is updated
  * after system_millis is incremented.
  */
-static volatile system_tick_t system_millis_clock = 0;
+volatile system_tick_t system_millis_clock = 0;
 
 /**
  * Increment the millisecond tick counter.
